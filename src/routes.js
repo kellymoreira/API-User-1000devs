@@ -5,4 +5,3 @@ const { calculaIdade } = require('./controller/user-controller')
 routes.get('/user', calculaIdade)
 
 module.exports = routes
-
